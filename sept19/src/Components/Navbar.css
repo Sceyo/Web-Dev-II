@@ -1,0 +1,150 @@
+.god{
+   max-height: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    overflow-y: scroll; 
+    
+    
+}
+
+.head-one{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    left: 0px;
+    background-color: white; 
+    height: 90px;
+}
+
+.bar{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 85px; 
+    height: 10px;
+    background-color: #b3b337;  
+}
+
+.bar-two{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 95px; 
+    height: 50px;
+    background-color:#0e3c00;  
+}
+
+/* .god-bar{
+   
+    top: 250px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    max-height: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    overflow-y: scroll; 
+} */
+
+.bar-three{
+    background-color: white;
+    position: fixed;
+    height: 40px;
+    width: 95%;
+    left: 31px;
+    top: 370px;
+
+}
+
+.bar-three h2{
+    position:absolute;
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    left: 55px;
+    z-index: 0px;
+}
+
+.bar-four{
+    position: fixed;
+    height: 270px;
+    width: 82%;
+    background-color: rgb(161, 161, 161);
+    top: 430px;
+    left: 200px;
+    z-index: 1;
+}
+
+.bar-four h3{
+    left: 40px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.bar-four h2{
+    left: 40px;
+    position: absolute;
+    top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    z-index: 1;
+   
+}
+
+.bar-four h5{
+    left: 40px;
+    position: absolute;
+    top: 140px;
+    font-size: 15px;
+    text-align: left;
+    z-index: 1;
+}
+
+.pic4{
+    position: fixed;
+    left :50px;
+}
+
+.bar-five{
+    position: fixed;
+    height: 300px;
+    width: 82%;
+    background-color: rgb(161, 161, 161);
+    top: 750px;
+    left: 200px;
+}
+
+.pic5{
+    position: fixed;
+    left :50px;
+}
+
+.bar-five h3{
+    left: 40px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.bar-five h2{
+    left: 40px;
+    position: absolute;
+    top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    z-index: 1;
+   
+}
+
+.bar-five h5{
+    left: 40px;
+    position: absolute;
+    top: 140px;
+    font-size: 15px;
+    text-align: left;
+    z-index: 1;
+}

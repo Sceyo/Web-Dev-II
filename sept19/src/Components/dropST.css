@@ -1,0 +1,219 @@
+
+.dropbtnST {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdownST {
+    position: fixed;
+    display: inline-block;
+    left: 770px;
+    z-index: 5000;
+  }
+  
+  
+  .dropdown-contentST {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    height: 45px;;
+  }
+  
+  
+  .dropdown-contentST a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-contentST a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdownST:hover .dropdown-contentST  {display: block;}
+  .dropdownST:hover .dropdown-contentST2 {display: block;}
+  .dropdownST:hover .dropdown-contentST3 {display: block;}
+  .dropdownST:hover .dropdown-contentST4 {display: block;}
+  .dropdownST:hover .dropbtnST {background-color: #3e8e41;}
+  
+  .sub-dropdownST1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: black;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 593px;
+  }
+
+  .sub-dropdownST1 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentST:hover .sub-dropdownST1 {
+    display: block;
+  }
+
+  .dropdown-contentST2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5000;
+    top: 90px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentST2 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentST2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownST2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: black;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 500px;
+  }
+
+  .sub-dropdownST2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentST2:hover .sub-dropdownST2 {
+    display: block;
+  }
+
+
+
+
+
+
+
+  .dropdown-contentST3 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5000;
+    top: 130px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentST3 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentST3 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownST3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: black;
+    min-width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownST3 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentST3:hover .sub-dropdownST3 {
+    display: block;
+  }
+  
+
+  .dropdown-contentST4 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5000;
+    top: 170px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentST4 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentST4 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownST4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: black;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 240px;
+  }
+
+  .sub-dropdownST4 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentST4:hover .sub-dropdownST4 {
+    display: block;
+  }

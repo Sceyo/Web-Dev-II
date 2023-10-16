@@ -1,0 +1,119 @@
+
+.dropbtnAdmin {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdownAdmin {
+    position: fixed;
+    display: inline-block;
+    left: 375px;
+    top: 150px;
+    z-index: 1000;
+  }
+  
+  
+  .dropdown-contentAdmin {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 100%;
+    height: 45px;;
+  }
+  
+  
+  .dropdown-contentAdmin a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-contentAdmin a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdownAdmin:hover .dropdown-contentAdmin  {display: block;}
+  .dropdownAdmin:hover .dropdown-contentAdmin2 {display: block;}
+  .dropdownAdmin:hover .dropbtnAdmin {background-color: #3e8e41;}
+  
+  .sub-dropdownAdmin1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownAdmin1 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentAdmin:hover .sub-dropdownAdmin1 {
+    display: block;
+  }
+
+  .dropdown-contentAdmin2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 90px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentAdmin2 a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentAdmin2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownAdmin2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownAdmin2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentAdmin2:hover .sub-dropdownAdmin2 {
+    display: block;
+  } 

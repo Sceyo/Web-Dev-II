@@ -1,0 +1,38 @@
+  
+    <a href="#news">Home</a>
+        <a href="#features" onClick={toggleDropdown}>Features</a>
+
+        {isDropdownVisible && (
+          <div className="dropdown-menu">
+            <a href="#feature-1">Feature 1</a>
+            <a href="#feature-2">Feature 2</a>
+            <a href="#feature-3">Feature 3</a>
+          </div>
+        )}
+     
+
+       
+  
+        {/* <a href="#contact" >Privacy Policy Statement</a>
+        <a href="#about" >Meet CALOY</a>
+        <a href="#about" >SAFAD Magazine</a>
+        <a href="#about" >Student Task</a>
+        <a href="#about" >Student Services</a>
+        <a href="#about" >Online Purchase(Textbook Dept)</a>
+        <br/>
+        <a href="#contact" >Motor Vehicle Pass</a>
+        <a href="#contact" >Evaluation</a>
+        <a href="#contact" >Administrative</a>
+        <a href="#contact" >Job Placement</a>
+        <a href="#contact" >OSA</a>
+        <a href="#contact" >Downloadable Forms</a>
+        <a href="#contact" >Promisory Note</a>
+        <a href="#contact" >Send Proof of Downpayment</a>
+        <br/>
+        <a href="#contact">USC Publishing House</a> */}
+
+      
+       
+      
+        
+      

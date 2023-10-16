@@ -1,0 +1,28 @@
+
+.nav-container{
+    position: fixed; 
+    top: 95px;
+    width: 95vw;
+ 
+    background-color: #003e07; 
+    left: 30px;;
+    height: 160px;
+}
+
+.nav-container a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float:left;
+    font-weight: normal;
+  }
+  
+ 
+.nav-container a:hover {
+    background-color: #b3b337;
+    color: black;
+}
+

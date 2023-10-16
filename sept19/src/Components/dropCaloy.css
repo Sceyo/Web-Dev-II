@@ -1,0 +1,118 @@
+
+.dropbtnCl {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdownCl {
+    position: fixed;
+    display: inline-block;
+    left: 440px;
+    z-index: 5000;
+  }
+  
+  
+  .dropdown-contentCl {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    height: 45px;;
+  }
+  
+  
+  .dropdown-contentCl a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-contentCl a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdownCl:hover .dropdown-contentCl  {display: block;}
+  .dropdownCl:hover .dropdown-contentCl2 {display: block;}
+  .dropdownCl:hover .dropbtnCl {background-color: #3e8e41;}
+  
+  .sub-dropdownCl1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownCl1 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentCl:hover .sub-dropdownCl1 {
+    display: block;
+  }
+
+  .dropdown-contentCl2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 90px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentCl2 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentCl2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownCl2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownCl2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentCl2:hover .sub-dropdownCl2 {
+    display: block;
+  }

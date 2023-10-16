@@ -1,0 +1,119 @@
+
+.dropbtnOSA {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+
+  .dropdownOSA {
+    position: fixed;
+    display: inline-block;
+    left: 695px;
+    top: 150px;
+    z-index: 1000;
+  }
+  
+  
+  .dropdown-contentOSA {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    top: 100%;
+    height: 45px;;
+  }
+  
+  
+  .dropdown-contentOSA a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-contentOSA a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdownOSA:hover .dropdown-contentOSA  {display: block;}
+  .dropdownOSA:hover .dropdown-contentOSA2 {display: block;}
+
+  
+  .sub-dropdownOSA1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownOSA1 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentOSA:hover .sub-dropdownOSA1 {
+    display: block;
+  }
+
+  .dropdown-contentOSA2 {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 90px;
+    height: 45px;;
+  }
+  
+  .dropdown-contentOSA2 a {
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+    
+  }
+
+  .dropdown-contentOSA2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+.sub-dropdownOSA2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent link */
+    width:230px;
+    background-color: black;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 45px;
+  }
+
+  .sub-dropdownOSA2 a:hover {
+    background-color: black;
+    color: white;
+    height: 45px;    
+}
+  
+  .dropdown-contentOSA2:hover .sub-dropdownOSA2 {
+    display: block;
+  } 
